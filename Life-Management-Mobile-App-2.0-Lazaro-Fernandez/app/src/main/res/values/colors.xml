@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alert_dialog_button_1">#6091fa</color>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorGreen">#066408</color>
+    <color name="colorGreenLight">#ad4deb6a</color>
+    <color name="colorGreenMedium">#11b213</color>
+    <color name="colorTransparent">#00000000</color>
+</resources>

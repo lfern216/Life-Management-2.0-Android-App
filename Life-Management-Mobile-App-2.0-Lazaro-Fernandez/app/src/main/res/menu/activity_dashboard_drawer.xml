@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_cycle"
+            android:icon="@android:drawable/ic_media_next"
+            android:title="New Cycle" />
+        <item
+            android:id="@+id/nav_current_cycle"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Current Cycle" />
+        <item
+            android:id="@+id/nav_prev_cycle"
+            android:icon="@android:drawable/ic_media_previous"
+            android:title="Previous Cycle" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Coaches Corner">
+        <menu>
+            <item
+                android:id="@+id/nav_view_coaches"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="View Coaches" />
+            <item
+                android:id="@+id/nav_share_progress"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share Progress with Coach" />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="Chat with Coach" />
+            <item
+                android:id="@+id/nav_update_calendar"
+                android:icon="@android:drawable/ic_menu_today"
+                android:title="Update Calendar" />
+
+            <item
+                android:id="@+id/nav_invite_friend"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Invite a Friend" />
+        </menu>
+    </item>
+
+</menu>

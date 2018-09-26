@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="450dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="-12dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="What is Growth?"
+        android:textColor="#fff"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="17.5sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:background="#FFF"
+        android:paddingBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="-75dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="image"
+            android:elevation="0dp"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

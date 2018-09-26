@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sprint_setting22"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceMedium"
+        android:textColor="#066408"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="Set Goals for Joy Activities"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/joyAct1"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textSize="19sp"
+            android:textStyle=""
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Activity 1:"/>
+
+        <EditText
+            android:id="@+id/joyAct1Goal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#066408"
+            android:textCursorDrawable="@drawable/color_green_cursor"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:hint="Enter goal"
+            android:layout_marginTop="-10dp"
+            android:allowUndo="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/joyAct2"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Activity 2:"/>
+
+        <EditText
+            android:id="@+id/joyAct2Goal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#066408"
+            android:textCursorDrawable="@drawable/color_green_cursor"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:hint="Enter goal"
+            android:layout_marginTop="-10dp"
+            android:allowUndo="false"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceMedium"
+        android:textColor="#066408"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="Set Goals for Passion Activities"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/passionAct1"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Activity 1:"/>
+
+        <EditText
+            android:id="@+id/passionAct1Goal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#066408"
+            android:textCursorDrawable="@drawable/color_green_cursor"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:hint="Enter goal"
+            android:layout_marginTop="-10dp"
+            android:allowUndo="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/passionAct2"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Activity 2:"/>
+
+        <EditText
+            android:id="@+id/passionAct2Goal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#066408"
+            android:textCursorDrawable="@drawable/color_green_cursor"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:hint="Enter goal"
+            android:layout_marginTop="-10dp"
+            android:allowUndo="false"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceMedium"
+        android:textColor="#066408"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="Set Goals for Contribution Activities"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contributionAct1"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Activity 1:"/>
+
+        <EditText
+            android:id="@+id/contributionAct1Goal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#066408"
+            android:textCursorDrawable="@drawable/color_green_cursor"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:hint="Enter goal"
+            android:layout_marginTop="-10dp"
+            android:allowUndo="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contributionAct2"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Activity 2:"/>
+
+        <EditText
+            android:id="@+id/contributionAct2Goal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#066408"
+            android:textCursorDrawable="@drawable/color_green_cursor"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:hint="Enter goal"
+            android:layout_marginTop="-10dp"
+            android:allowUndo="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <Button
+            android:id="@+id/submitActGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#11b213"
+            android:text="Submit Sprint Settings"
+            android:textColor="#fdfcfc"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            style="?android:attr/buttonStyleSmall"/>
+
+    </LinearLayout>
+
+</LinearLayout>

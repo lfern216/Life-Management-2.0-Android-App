@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_joy"
+        android:icon="@drawable/joy"
+        android:title="Joy" />
+
+    <item
+        android:id="@+id/navigation_passion"
+        android:icon="@drawable/passion"
+        android:title="Passion" />
+
+    <item
+        android:id="@+id/navigation_contribution"
+        android:icon="@drawable/giving_back"
+        android:title="Contribution" />
+
+</menu>

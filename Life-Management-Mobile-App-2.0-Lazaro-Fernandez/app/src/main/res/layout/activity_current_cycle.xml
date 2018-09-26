@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/currentcyclebackground"
+    android:orientation="vertical"
+    tools:context="com.example.seniorprojectfall.test.currentCycleActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" Activity Score:  "
+                android:textColor="#010101"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:background="@color/cardview_shadow_end_color"
+                android:paddingTop="-1dp">
+
+                <com.sccomponents.gauges.ScArcGauge xmlns:sc="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/gauge_currentcycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    sc:angleStart="135"
+                    sc:angleSweep="270"
+                    sc:progressColor="#33cccc"
+                    sc:progressSize="10dp"
+                    sc:strokeColor="#e4e1e1"
+                    sc:strokeSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/counter_currentcycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="0%"
+                    android:textColor="#33cccc"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-5dp">
+
+            <TextView
+                android:id="@+id/textViewcurrentcycle"
+                android:layout_width="318dp"
+                android:layout_height="229dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:autoText="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/textViewcycle_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:foregroundGravity="center"
+            android:text="Current Cycle"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_currentcycle"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/leftarrowicon_cycle"
+            android:elevation="20dp"
+            android:scaleType="fitXY" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="285dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=" Activity Score:  "
+                android:textColor="#010101"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:background="@color/cardview_shadow_end_color"
+                android:paddingTop="-1dp">
+
+                <com.sccomponents.gauges.ScArcGauge xmlns:sc="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/gauge_currentcycle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    sc:angleStart="135"
+                    sc:angleSweep="270"
+                    sc:progressColor="#33cccc"
+                    sc:progressSize="10dp"
+                    sc:strokeColor="#e4e1e1"
+                    sc:strokeSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/counter_currentcycle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="0%"
+                    android:textColor="#33cccc"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="205dp">
+
+            <TextView
+                android:id="@+id/textViewcurrentcycle2"
+                android:layout_width="318dp"
+                android:layout_height="229dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:autoText="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>

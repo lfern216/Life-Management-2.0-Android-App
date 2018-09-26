@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "868568540473",
+    "firebase_url": "https://life-management-f0cdf.firebaseio.com",
+    "project_id": "life-management-f0cdf",
+    "storage_bucket": "life-management-f0cdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868568540473:android:1cbf4f375c1d4236",
+        "android_client_info": {
+          "package_name": "com.example.seniorprojectfall.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868568540473-08jc31tn4t3n5m5vpmhn63tlkhvlvcht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seniorprojectfall.test",
+            "certificate_hash": "2e4a0ac823d6db614ba74478b899c2b8efd1d1f8"
+          }
+        },
+        {
+          "client_id": "868568540473-ph0ahqpf9jdaeussvpil6il47entblqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8CVoLs6Tk4GwOxAcfA158FwIhZxoE9CU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868568540473-tn32bvqc0nffmkp2qbehuv0cpk3869hd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sp.LifeManagementApp"
+              }
+            },
+            {
+              "client_id": "868568540473-ph0ahqpf9jdaeussvpil6il47entblqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

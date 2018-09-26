@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/passionbackgroundcycle3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=" Activity Score:  "
+            android:textColor="#010101"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@color/cardview_shadow_end_color"
+            android:paddingTop="-1dp">
+
+            <com.sccomponents.gauges.ScArcGauge xmlns:sc="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/gauge_previouscycle_passion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                sc:angleStart="135"
+                sc:angleSweep="270"
+                sc:progressColor="#ff6666"
+                sc:progressSize="10dp"
+                sc:strokeColor="#e4e1e1"
+                sc:strokeSize="10dp" />
+
+
+            <TextView
+                android:id="@+id/counter_previouscycle_passion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0%"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="23dp">
+
+        <TextView
+            android:id="@+id/textView3passion"
+            android:layout_width="318dp"
+            android:layout_height="229dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp"
+            android:autoText="false"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/buttonleavepassion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/alert_dialog_button_1"
+        android:text="Button" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/joybackgroundcyclesecond"
+    tools:context="com.example.seniorprojectfall.test.viewCoachesActivity">
+
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="344dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textViewcycle_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+
+            android:foregroundGravity="center"
+            android:text="  Current Coaches:"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <ListView
+            android:id="@+id/listviewViewCoaches"
+            android:layout_width="400dp"
+            android:layout_height="394dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="268dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_Coaches"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/leftarrowicon_cycle"
+            android:elevation="20dp"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

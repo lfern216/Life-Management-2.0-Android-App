@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lazaro/Desktop/Life-Management-Mobile-App-2.0-Lazaro-Fernandez/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/lazaro/Desktop/Life-Management-Mobile-App-2.0-Lazaro-Fernandez/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_a059c2a205e2bacfd785cb45db46dd324abfdc86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazaro/Desktop/Life-Management-Mobile-App-2.0-Lazaro-Fernandez/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2796c2286dabe329b2e75c9042e6393a92cd529">
+        <dex dex="/Users/lazaro/Desktop/Life-Management-Mobile-App-2.0-Lazaro-Fernandez/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5f00eff2db16f9601832263e46e9114cb2b46625/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazaro/AndroidStudioProjects/Test/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/lazaro/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_c9ce262ecfded454093623220286c9d6ac60f8b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazaro/AndroidStudioProjects/Test/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ef760b477b32f62283797e40c28b3c37f9180040">
+        <dex dex="/Users/lazaro/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d9e0c13221aee9de2ce87cbf12343953ab9d75d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazaro/AndroidStudioProjects/Test/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/lazaro/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1f774e261697ed0d9f44e0e32478f239d20f29ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazaro/Desktop/Life-Management-Mobile-App-2.0-Lazaro-Fernandez/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/lazaro/Desktop/Life-Management-Mobile-App-2.0-Lazaro-Fernandez/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_346ece1f8489d8087ffafd5ecb14a84ebc3c33ab/classes.dex" />
+    </item>
+
+</items>
